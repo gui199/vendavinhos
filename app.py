@@ -138,4 +138,4 @@ def api_maior(name):
 #processo principal
 if __name__ == "__main__":    
     #iniciar aplicativo
-    app.run()
+    app.run( debug=True)

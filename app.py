@@ -14,7 +14,7 @@ API com cadastro de clientes
 @author: guilherme
 """
 
-from Flask import Flask
+from flask import Flask
 app = Flask(__name__)
 
 #página inicial/home

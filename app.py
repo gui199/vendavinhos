@@ -136,7 +136,6 @@ def api_maior(name):
     return jsonify(parsed)
 
 #processo principal
-if __name__ == "__main__":
-    
+if __name__ == "__main__":    
     #iniciar aplicativo
-    app.run(host='0.0.0.0',  threaded=True)
+    app.run()

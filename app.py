@@ -137,6 +137,6 @@ def api_maior(name):
 
 #processo principal
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", "7111"))
+    
     #iniciar aplicativo
-    app.run(host='0.0.0.0', port=port, threaded=True)
+    app.run(host='0.0.0.0',  threaded=True)
